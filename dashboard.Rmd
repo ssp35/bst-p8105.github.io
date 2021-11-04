@@ -68,7 +68,7 @@ nyc_airbnb %>%
     type = "bar", colors = "viridis")
 ```
 
-Rebuild website to render as a dashboard, or type the following into the command line. 
+Rebuild website to render as a dashboard, or type the following into the command line.
 
 `rmarkdown::render("dashboard.Rmd", output_format = "flexdashboard::flex_dashboard")`
 
